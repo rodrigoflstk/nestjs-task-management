@@ -8,9 +8,9 @@ import {
   Post,
   Query,
 } from '@nestjs/common';
-import { CreateTaskDTO } from './dtos/CreateTaskDTO';
-import { GetTasksFilterDTO } from './dtos/GetTasksFilterDTO';
-import { UpdateTaskStatusDTO } from './dtos/UpdateTaskStatusDTO';
+import { CreateTaskDTO } from '../dtos/CreateTaskDTO';
+import { GetTasksFilterDTO } from '../dtos/GetTasksFilterDTO';
+import { UpdateTaskStatusDTO } from '../dtos/UpdateTaskStatusDTO';
 import { Task } from './task.entity';
 import { TasksService } from './tasks.service';
 
